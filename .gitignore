@@ -1,5 +1,7 @@
 /evidences
-/"<TemporaryDirectory '"
+/"<TemporaryDirectory'"
 /.pytest_cache
 /assets
 /pages/__pycache__
+report.html
+/report

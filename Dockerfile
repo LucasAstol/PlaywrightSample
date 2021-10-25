@@ -7,4 +7,4 @@ COPY . .
 RUN pytest --video on \
     --output evidences --slowmo 150 \
     --browser chromium --browser firefox \
-    --screenshot on
+    --screenshot on --html=./test-results/report.html

@@ -19,7 +19,7 @@ class DigitalExperience:
     
     @property
     def phone(self):
-        return self.page.wait_for_selector(':nth-match(.input-group-item > input, 3)')
+        return self.page.locator(':nth-match(.input-group-item > input, 3)')
 
     @property
     def message(self):
